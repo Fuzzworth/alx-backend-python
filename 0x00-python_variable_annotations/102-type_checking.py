@@ -5,7 +5,7 @@ Module Doc
 from typing import Tuple
 
 
-def zoom_array(lst: Tuple, factor: int = 2) -> Tuple:
+def zoom_array(lst: Tuple[int], factor: int = 2) -> Tuple:
     '''
     Function Docs
     '''
