@@ -18,4 +18,3 @@ def make_multiplier(multiplier: float) -> Callable[[float], float]:
     """
     func: Callable[[float], float] = lambda value: value * multiplier
     return func
-
