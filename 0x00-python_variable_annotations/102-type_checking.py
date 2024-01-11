@@ -2,10 +2,10 @@
 '''
 Module Doc
 '''
-from typing import Tuple
+from typing import Tuple, List
 
 
-def zoom_array(lst: Tuple[int], factor: int = 2) -> Tuple:
+def zoom_array(lst: Tuple, factor: int = 2) -> List:
     '''
     Function Docs
     '''
