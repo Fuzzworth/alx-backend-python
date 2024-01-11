@@ -2,7 +2,7 @@
 '''
 Module Doc
 '''
-from typing import Mapping, Any, Union
+from typing import TypeVar, Mapping, Any, Union
 
 
 T = TypeVar('T')
