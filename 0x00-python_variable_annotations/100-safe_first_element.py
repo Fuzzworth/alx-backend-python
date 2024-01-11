@@ -5,7 +5,7 @@ Module Doc
 from typing import Sequence, Union, Any
 
 
-def safe_first_element(lst: Sequence[Any]) ->Union[Any, NoneType]:
+def safe_first_element(lst: Sequence[Any]) -> Union[Any, NoneType]:
     """
     Returns the first element of the input sequence, or None if
     the sequence is empty.
