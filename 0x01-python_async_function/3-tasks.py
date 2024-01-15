@@ -13,5 +13,4 @@ def task_wait_random(max_delay: int) -> Awaitable[Any]:
     Function Docs
     """
     task = asyncio.create_task(wait_random(max_delay))
-    await task
     return task
