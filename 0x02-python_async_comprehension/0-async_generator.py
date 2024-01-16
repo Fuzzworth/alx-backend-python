@@ -5,6 +5,7 @@ Module Docs
 import asyncio
 import random
 
+
 async def async_generator():
     """
     Asynchronous generator that yields a random number between 0 and 10 after waiting for 1 second.
